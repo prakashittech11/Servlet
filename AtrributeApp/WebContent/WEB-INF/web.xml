@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>AtrributeApp</display-name>
+
+<servlet>
+	<servlet-name>s1</servlet-name>
+	<servlet-class>com.nt.servlet.Servlet1</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>s1</servlet-name>
+	<url-pattern>/s1url</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>s2</servlet-name>
+	<servlet-class>com.nt.servlet.Servlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>s2</servlet-name>
+	<url-pattern>/s2url</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>s3</servlet-name>
+	<servlet-class>com.nt.servlet.Servlet3</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>s3</servlet-name>
+	<url-pattern>/s3url</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>s4</servlet-name>
+	<servlet-class>com.nt.servlet.Servlet4</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>s4</servlet-name>
+	<url-pattern>/s4url</url-pattern>
+</servlet-mapping>
+
+</web-app>
