@@ -8,10 +8,11 @@
 <servlet>
 	<servlet-name>cal</servlet-name>
 	<servlet-class>com.nt.servlet.CalculatorServlet</servlet-class>
+	 <load-on-startup>2</load-on-startup>
 </servlet>
 <servlet-mapping>
 	<servlet-name>cal</servlet-name>
-	<url-pattern>/calurl</url-pattern>
+	<url-pattern>/*</url-pattern>
 </servlet-mapping>
 <welcome-file-list>
 	<welcome-file>input.html</welcome-file>
